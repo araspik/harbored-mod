@@ -63,19 +63,19 @@ directory.
 - `---` will not generate a horizontal line, as it is used for DDoc blocks. Use `- - -` instead. This is still standard Markdown.
 - *emphasis* can be denoted by `*`, but not by `_` (this would break snake\_case names).
 - This does not work (again because DDoc uses `---` to mark code blocks):
-
-    Subheading
-    ----------
-
+```
+Subheading
+----------
+```
 Instead, use either (standard Markdown):
-
-    ## Subheading
-
+```
+## Subheading
+````
 Or (non-standard):
-
-    Subheading
-    **********
-    
+```
+Subheading
+**********
+```    
 ## Directory structure
 
 | Directory     | Contents                                                                                             |
